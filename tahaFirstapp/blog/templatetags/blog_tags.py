@@ -119,7 +119,20 @@ def active_author():
     }
     return context
 
+@register.inclusion_tag("partials/in_active_author.html", name="in_active-author")
+def inactive_author():
+    author = User.objects.annotate(
+        post_count=Count(
+            "user_post",
+            filter=Q(user_post__status=Post.Status.PUBLISHED)
+        )
+    ).filter(
+        post_count__gt=0
+    ).order_by("post_count").first()
 
+    return {
+        "author": author,
+    }
 
 
 

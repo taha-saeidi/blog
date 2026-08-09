@@ -1,7 +1,7 @@
 from idlelib import replace
 from unicodedata import name
 import re
-from django.db.models import Count,Max,Min
+from django.db.models import Count, Max, Min, Q
 from django import template
 
 from . import bad_words
@@ -103,8 +103,21 @@ def censor_text(value):
         return value
 
 
-@register.inclusion_tag("partials/active_author.html" ,name="active-author")
+# @register.inclusion_tag("partials/active_author.html" ,name="active-author")
+@register.inclusion_tag("partials/active_author.html", name="active-author")
+def active_author():
 
+    author = User.objects.annotate(
+        post_count=Count(
+            "user_post",
+            filter=Q(user_post__status=Post.Status.PUBLISHED)
+        )
+    ).order_by("-post_count").first()
+
+    context = {
+        'author': author,
+    }
+    return context
 
 
 

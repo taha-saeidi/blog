@@ -35,16 +35,16 @@ class PostForm(forms.ModelForm):
             else:
                 return slug
         return None
-    def clean_reading_time(self):
-        reading_time = self.cleaned_data['reading_time']
-        if reading_time:
-            if not reading_time.isnumeric():
-                raise forms.ValidationError("زمان مطالعه باید به صورت عدد مثبت وارد شود!")
-            # elif reading_time<0 or reading_time==0:
-            #     raise forms.ValidationError("زمان مطالعه نباید عدد منفی باشد !")
-            else:
-                return reading_time
-        return None
+    # def clean_reading_time(self):
+    #     reading_time = self.cleaned_data['reading_time']
+    #     if reading_time:
+    #         if not reading_time.isnumeric():
+    #             raise forms.ValidationError("زمان مطالعه باید به صورت عدد مثبت وارد شود!")
+    #         # elif reading_time<0 or reading_time==0:
+    #         #     raise forms.ValidationError("زمان مطالعه نباید عدد منفی باشد !")
+    #         else:
+    #             return reading_time
+    #     return None
 
 
 

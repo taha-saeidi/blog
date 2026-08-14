@@ -17,7 +17,7 @@ def index(request):
 
 
 # def post(request):
-#     posts = Post.Published_Manager.all()
+    posts = Post.Published_Manager.all()
 #     paginator = Paginator(posts,2)
 #     page_number = request.GET.get('page',1)
 #     try:

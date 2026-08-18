@@ -17,7 +17,7 @@ def index(request):
 
 
 # def post(request):
-#     posts = Post.Published_Manager.all()
+    posts = Post.Published_Manager.all()
 #     paginator = Paginator(posts,2)
 #     page_number = request.GET.get('page',1)
 #     try:
@@ -62,7 +62,7 @@ def ticket(request):
             # ticket_obj.name = cd['name']
             # ticket_obj.email = cd['email']
             # ticket_obj.subject = cd['subject']
-            # ticket_obj.phone = cd['phone']
+            #ticket_obj.phone = cd['phone']
             # ticket_obj.save()
             return redirect('blog:index')
     else:

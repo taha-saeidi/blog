@@ -25,7 +25,7 @@ class Post(models.Model):
     description = models.TextField(verbose_name = "توضیحات")
     slug = models.SlugField(max_length=250)
     #date
-    published = models.DateTimeField(default=timezone.now)
+    published = models.jDateTimeField(default=timezone.now)
     created = jmodels.jDateTimeField(auto_now_add=True, verbose_name = "زمان تولید")
     updated = jmodels.jDateTimeField(auto_now=True, verbose_name = "زمان آپدیت")
     #choices fields

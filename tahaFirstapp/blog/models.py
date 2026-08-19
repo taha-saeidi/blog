@@ -37,7 +37,7 @@ class Post(models.Model):
     reading_time = models.PositiveIntegerField(default=0 , verbose_name="زمان مطالعه")
 
     # objects = models.Manager()
-    objects = models.Manager()
+    objects = jmodels.Manager()
     Published_Manager = PublishedManager()
     def get_absolute_url(self):
         return reverse("blog:post_detail", args={self.id})

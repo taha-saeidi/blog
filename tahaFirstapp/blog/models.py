@@ -70,7 +70,7 @@ class Comment(models.Model):
     body = models.TextField(verbose_name="پیام")
     name = models.CharField(max_length=250, verbose_name="اسم")
     created = models.DateTimeField(auto_now_add=True, verbose_name="زمان تولید")
-    updated = models.DateTimeField(auto_now=True, verbose_name="زمان آپدیت")
+    updated = models.jDateTimeField(auto_now=True, verbose_name="زمان آپدیت")
     # published = models.DateTimeField(default=timezone.now())
     active = models.BooleanField(default=False,verbose_name="وضعیت")
 

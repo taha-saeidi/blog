@@ -1,0 +1,3107 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2026-07-11T06:41:33.975Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "1",
+        "object_repr": "taha",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2026-07-11T06:42:05.120Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "reza",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2026-07-11T06:42:22.866Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "reza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2026-07-11T06:42:29.860Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "reza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2026-07-11T06:44:42.923Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "first post",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2026-07-11T06:45:26.709Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "python",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-07-11T06:48:05.506Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "reza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-07-11T06:48:27.662Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "reza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2026-07-11T08:05:10.021Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "first post",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2026-07-11T08:05:20.995Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "python",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2026-07-11T08:05:37.771Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "python",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2026-07-11T08:28:07.966Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "python",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2026-07-11T08:30:58.647Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "first post",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2026-07-11T08:31:01.730Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "first post",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2026-07-11T08:35:16.141Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "first post",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Payment\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2026-07-11T08:36:39.218Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "python",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Payment\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2026-07-11T08:36:43.592Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "python",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Payment\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2026-07-11T19:30:20.817Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "reza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2026-07-12T13:08:31.984Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "js",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2026-07-12T13:21:34.613Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "cpp",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2026-07-12T13:21:42.495Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "c#",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2026-07-12T13:21:47.871Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "java",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2026-07-12T13:22:23.673Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "django",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2026-07-12T13:24:41.407Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "c++",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2026-07-12T13:29:08.830Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "c++",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2026-07-12T13:29:31.294Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "python",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2026-07-12T13:29:39.075Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "javaScript",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Published\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2026-07-12T13:29:58.834Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2026-07-16T14:14:56.379Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "java",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2026-07-16T14:14:56.382Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "javaScript",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2026-07-16T14:14:56.383Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "c++",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2026-07-16T14:26:51.838Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2026-07-16T14:28:16.112Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2026-07-16T14:29:30.554Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2026-07-16T14:33:27.676Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2026-07-17T23:38:05.226Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0627\\u0646\\u062a\\u0634\\u0627\\u0631\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2026-07-18T10:36:22.186Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0627\\u0646\\u062a\\u0634\\u0627\\u0631\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2026-07-18T10:36:57.704Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "seo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2026-07-18T10:37:35.704Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "seo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0627\\u0646\\u062a\\u0634\\u0627\\u0631\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2026-07-18T16:28:59.833Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "seo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0627\\u0646\\u062a\\u0634\\u0627\\u0631\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2026-07-18T16:46:15.267Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "seo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0627\\u0646\\u062a\\u0634\\u0627\\u0631\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2026-07-18T16:48:04.687Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "rust",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2026-07-18T16:55:33.746Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "ttt",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2026-07-18T16:56:05.137Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "ttt",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0627\\u0646\\u062a\\u0634\\u0627\\u0631\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2026-07-18T16:56:15.363Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "ttt",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2026-07-18T16:56:20.292Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "seo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2026-07-21T04:27:13.834Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2026-07-21T04:28:23.176Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "go",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2026-07-21T05:58:01.954Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "kotlin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2026-07-21T06:07:48.212Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "swift",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2026-07-21T18:57:27.396Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "javaScript",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2026-07-21T18:57:54.643Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "java",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2026-07-21T18:58:32.088Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "javaScript",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2026-07-21T18:58:36.308Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "java",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2026-07-24T07:31:45.892Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2026-07-25T19:12:40.161Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2026-07-25T19:14:05.387Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2026-07-25T20:22:29.600Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2026-07-25T20:22:29.600Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2026-07-25T20:24:00.181Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2026-07-25T20:24:00.181Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2026-07-25T20:24:00.181Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2026-07-25T20:25:13.250Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2026-07-25T20:25:13.250Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2026-07-25T20:25:13.250Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2026-07-26T15:12:47.061Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "swift",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2026-07-26T15:13:28.659Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2026-07-26T15:13:39.285Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "15",
+        "object_repr": "پیشنهاد",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2026-07-26T15:13:39.285Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "پیشنهاد",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2026-07-26T15:13:39.286Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "پیشنهاد",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2026-07-26T15:15:25.159Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "reza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2026-07-26T15:15:59.893Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "reza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2026-07-26T15:17:16.126Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "16",
+        "object_repr": "گزارش",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Message\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2026-07-26T15:17:21.740Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "16",
+        "object_repr": "گزارش",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2026-07-26T19:56:29.879Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "taha : go",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2026-07-26T19:56:32.790Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "taha : go",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2026-07-26T20:06:48.159Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "taha : swift",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2026-07-26T20:06:48.160Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "taha : swift",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2026-07-26T20:06:48.160Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "محمد طاها سعیدی : swift",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2026-07-26T20:06:48.160Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "محمد طاها سعیدی : swift",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2026-07-26T20:06:48.160Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "taha : go",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2026-07-27T05:10:34.600Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "محمد طاها سعیدی : django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u067e\\u06cc\\u0627\\u0645\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2026-07-27T05:10:39.703Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "محمد طاها سعیدی : django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2026-07-27T05:11:44.927Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "محمد طاها سعیدی : django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2026-07-27T05:45:29.280Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "محمد طاها سعیدی : go",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2026-07-27T06:15:51.113Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "taha : python",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2026-07-27T06:15:51.115Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "محمد طاها سعیدی : go",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2026-07-27T09:13:33.243Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "10",
+        "object_repr": "09945463237 : django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2026-07-27T09:13:33.245Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "Mohammad Taha Saeidi : django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2026-07-27T09:14:06.770Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "11",
+        "object_repr": "taha : swift",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2026-07-27T09:27:32.768Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "13",
+        "object_repr": "taha : swift",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2026-07-27T09:27:32.770Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "12",
+        "object_repr": "taha : swift",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2026-07-27T09:27:48.900Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "14",
+        "object_repr": "09945463237 : swift",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2026-07-27T09:28:01.409Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "13",
+        "object_repr": "taha : swift",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2026-07-27T09:28:36.770Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "15",
+        "object_repr": "taha : kotlin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2026-07-28T07:25:46.951Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "16",
+        "object_repr": "as:go",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2026-07-28T09:57:41.747Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "20",
+        "object_repr": "ddfdd:swift",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2026-07-28T09:57:41.748Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "19",
+        "object_repr": "dfdfd:swift",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2026-07-28T09:57:41.748Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "18",
+        "object_repr": "ta:go",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2026-07-28T09:57:41.748Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "17",
+        "object_repr": "ta:go",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2026-07-28T09:59:03.368Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "21",
+        "object_repr": "علی:c++",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2026-08-01T12:06:14.130Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "c#",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2026-08-01T12:45:38.882Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "c#",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0648\\u0636\\u06cc\\u062d\\u0627\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2026-08-01T12:46:59.089Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "22",
+        "object_repr": "طاها سعیدی:c#",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2026-08-01T12:47:06.178Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "26",
+        "object_repr": "sdds:c#",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2026-08-01T12:47:06.178Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "25",
+        "object_repr": "sdds:c#",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2026-08-01T12:47:06.178Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "24",
+        "object_repr": "Mohammad Taha Saeidiیسیس:c#",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2026-08-01T12:47:06.178Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "23",
+        "object_repr": "بیبی:c#",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2026-08-01T12:51:48.480Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "20",
+        "object_repr": "انتقاد",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2026-08-01T12:51:53.178Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "19",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2026-08-01T12:51:53.178Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "18",
+        "object_repr": "انتقاد",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2026-08-01T12:51:53.178Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "17",
+        "object_repr": "انتقاد",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2026-08-01T12:51:53.178Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "16",
+        "object_repr": "گزارش",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2026-08-02T11:38:34.555Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "c#",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2026-08-02T11:38:39.473Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "c#",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2026-08-02T11:42:50.800Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "c#",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2026-08-02T11:42:55.350Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "swift",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2026-08-02T11:42:59.838Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "kotlin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2026-08-02T11:43:03.530Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "python",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2026-08-02T11:43:09.671Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "c++",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2026-08-03T06:31:22.255Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "reza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2026-08-03T06:31:52.866Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "javaScript",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2026-08-03T06:32:22.279Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "27",
+        "object_repr": "ali:django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2026-08-03T06:32:44.816Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "javaScript",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2026-08-03T06:35:28.173Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2026-08-03T06:35:49.893Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2026-08-03T08:45:05.024Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "C",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\", \" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2026-08-03T18:43:27.056Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "27",
+        "object_repr": "ali:django",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2026-08-03T18:43:27.056Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "22",
+        "object_repr": "طاها سعیدی:c#",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2026-08-03T18:43:27.056Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "21",
+        "object_repr": "علی:c++",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2026-08-03T18:43:27.056Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "15",
+        "object_repr": "taha:kotlin",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2026-08-03T18:43:27.056Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "14",
+        "object_repr": "09945463237:swift",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2026-08-03T18:43:27.056Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "12",
+        "object_repr": "taha:swift",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2026-08-03T18:43:27.056Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "11",
+        "object_repr": "taha:swift",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2026-08-03T18:43:27.056Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "10",
+        "object_repr": "09945463237:django",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2026-08-03T18:43:27.056Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "Mohammad Taha Saeidi:django",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2026-08-03T18:43:27.056Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "taha:python",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2026-08-03T18:43:27.056Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "محمد طاها سعیدی:go",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2026-08-03T18:43:27.056Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "محمد طاها سعیدی:django",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2026-08-03T18:43:47.150Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "C",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2026-08-03T18:43:47.150Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "django",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2026-08-03T18:43:47.150Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "c#",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2026-08-03T18:43:47.150Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "swift",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2026-08-03T18:43:47.150Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "kotlin",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2026-08-03T18:43:47.150Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "go",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2026-08-03T18:43:47.150Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "seo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+        "action_time": "2026-08-03T18:43:47.150Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "java",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+        "action_time": "2026-08-03T18:43:47.150Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "rust",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+        "action_time": "2026-08-03T18:43:47.150Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "javaScript",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+        "action_time": "2026-08-03T18:43:47.150Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "python",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+        "action_time": "2026-08-03T18:43:47.150Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "c++",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+        "action_time": "2026-08-03T18:55:21.421Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "رنگ مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\", \" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\", \"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+        "action_time": "2026-08-03T18:59:17.998Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "28",
+        "object_repr": "taha:رنگ مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+        "action_time": "2026-08-05T07:26:12.039Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "28",
+        "object_repr": "taha:رنگ مو",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+        "action_time": "2026-08-05T17:36:04.176Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "29",
+        "object_repr": "ali:رنگ مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+        "action_time": "2026-08-05T17:44:30.728Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "sa",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+        "action_time": "2026-08-05T17:44:30.728Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "s",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+        "action_time": "2026-08-05T17:47:41.722Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "22",
+        "object_repr": "aa",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+        "action_time": "2026-08-05T17:47:41.722Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "aa",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 160,
+    "fields": {
+        "action_time": "2026-08-05T17:47:41.722Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "a",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 161,
+    "fields": {
+        "action_time": "2026-08-05T17:47:41.722Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "a",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 162,
+    "fields": {
+        "action_time": "2026-08-05T17:47:41.722Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "sa",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 163,
+    "fields": {
+        "action_time": "2026-08-05T17:47:41.722Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "sa",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 164,
+    "fields": {
+        "action_time": "2026-08-05T18:35:09.097Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "24",
+        "object_repr": "ss",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 165,
+    "fields": {
+        "action_time": "2026-08-05T18:35:09.097Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "23",
+        "object_repr": "aaa",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 166,
+    "fields": {
+        "action_time": "2026-08-05T18:41:22.871Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "26",
+        "object_repr": "python",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 167,
+    "fields": {
+        "action_time": "2026-08-05T18:51:03.531Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "ali",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 168,
+    "fields": {
+        "action_time": "2026-08-05T18:51:29.406Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "ali",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Staff status\", \"Superuser status\", \"Last login\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 169,
+    "fields": {
+        "action_time": "2026-08-05T19:47:08.561Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "31",
+        "object_repr": "dp",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 170,
+    "fields": {
+        "action_time": "2026-08-05T19:47:08.561Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "30",
+        "object_repr": "a",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 171,
+    "fields": {
+        "action_time": "2026-08-05T19:47:08.561Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "29",
+        "object_repr": "ssd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 172,
+    "fields": {
+        "action_time": "2026-08-05T19:47:08.561Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "28",
+        "object_repr": "ssd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 173,
+    "fields": {
+        "action_time": "2026-08-05T19:47:08.561Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "27",
+        "object_repr": "ssd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 174,
+    "fields": {
+        "action_time": "2026-08-05T19:47:08.561Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "25",
+        "object_repr": "python",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 175,
+    "fields": {
+        "action_time": "2026-08-05T19:52:18.009Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "35",
+        "object_repr": "s",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 176,
+    "fields": {
+        "action_time": "2026-08-05T19:52:18.009Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "34",
+        "object_repr": "s",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 177,
+    "fields": {
+        "action_time": "2026-08-05T19:52:18.009Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "33",
+        "object_repr": "dp",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 178,
+    "fields": {
+        "action_time": "2026-08-05T19:52:18.009Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "32",
+        "object_repr": "dp",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 179,
+    "fields": {
+        "action_time": "2026-08-05T19:54:07.073Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "37",
+        "object_repr": "dp",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 180,
+    "fields": {
+        "action_time": "2026-08-05T19:54:07.073Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "36",
+        "object_repr": "dp",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 181,
+    "fields": {
+        "action_time": "2026-08-05T20:00:27.188Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "38",
+        "object_repr": "dp",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 182,
+    "fields": {
+        "action_time": "2026-08-05T20:02:05.959Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "39",
+        "object_repr": "ناخن",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 183,
+    "fields": {
+        "action_time": "2026-08-05T20:11:45.025Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "40",
+        "object_repr": "کاشت مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\", \" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 184,
+    "fields": {
+        "action_time": "2026-08-05T20:12:56.405Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "40",
+        "object_repr": "کاشت مو",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 185,
+    "fields": {
+        "action_time": "2026-08-05T20:13:53.907Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "41",
+        "object_repr": "کاشت مو",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 186,
+    "fields": {
+        "action_time": "2026-08-05T20:14:11.666Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "42",
+        "object_repr": "کاشت مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\", \" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 187,
+    "fields": {
+        "action_time": "2026-08-05T20:14:32.241Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "29",
+        "object_repr": "ali:رنگ مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u067e\\u06cc\\u0627\\u0645\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 188,
+    "fields": {
+        "action_time": "2026-08-06T08:43:38.547Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "45",
+        "object_repr": "hhdd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 189,
+    "fields": {
+        "action_time": "2026-08-06T08:43:38.547Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "44",
+        "object_repr": "hhdd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 190,
+    "fields": {
+        "action_time": "2026-08-06T08:43:38.547Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "43",
+        "object_repr": "hhd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 191,
+    "fields": {
+        "action_time": "2026-08-06T08:47:24.562Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "46",
+        "object_repr": "کراتین مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\", \" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\", \"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 192,
+    "fields": {
+        "action_time": "2026-08-06T08:47:34.807Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "46",
+        "object_repr": "کراتین مو",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 193,
+    "fields": {
+        "action_time": "2026-08-06T08:47:55.220Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "47",
+        "object_repr": "کراتین مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 194,
+    "fields": {
+        "action_time": "2026-08-06T08:48:30.058Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "30",
+        "object_repr": "ali:کراتین مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 195,
+    "fields": {
+        "action_time": "2026-08-06T08:56:48.605Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "48",
+        "object_repr": "پروتئینه مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 196,
+    "fields": {
+        "action_time": "2026-08-06T09:54:02.163Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "47",
+        "object_repr": "کراتین مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\", \"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 197,
+    "fields": {
+        "action_time": "2026-08-06T09:54:54.195Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "47",
+        "object_repr": "کراتین مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 198,
+    "fields": {
+        "action_time": "2026-08-06T10:03:43.178Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "39",
+        "object_repr": "ناخن",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\", \"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 199,
+    "fields": {
+        "action_time": "2026-08-06T10:03:47.257Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "39",
+        "object_repr": "ناخن",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 200,
+    "fields": {
+        "action_time": "2026-08-06T10:03:50.586Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "39",
+        "object_repr": "ناخن",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 201,
+    "fields": {
+        "action_time": "2026-08-06T10:03:53.936Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "39",
+        "object_repr": "ناخن",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 202,
+    "fields": {
+        "action_time": "2026-08-06T10:06:31.010Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "47",
+        "object_repr": "کراتین مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 203,
+    "fields": {
+        "action_time": "2026-08-06T10:06:46.993Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "48",
+        "object_repr": "پروتئینه مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\", \"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 204,
+    "fields": {
+        "action_time": "2026-08-06T10:09:17.272Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "رنگ مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 205,
+    "fields": {
+        "action_time": "2026-08-06T17:51:55.053Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "48",
+        "object_repr": "پروتئینه مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 206,
+    "fields": {
+        "action_time": "2026-08-06T17:52:11.251Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "47",
+        "object_repr": "کراتین مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0632\\u0645\\u0627\\u0646 \\u0645\\u0637\\u0627\\u0644\\u0639\\u0647\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 207,
+    "fields": {
+        "action_time": "2026-08-07T16:24:19.492Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "48",
+        "object_repr": "پروتئینه مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0648\\u0636\\u06cc\\u062d\\u0627\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 208,
+    "fields": {
+        "action_time": "2026-08-07T16:24:23.903Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "48",
+        "object_repr": "پروتئینه مو",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 209,
+    "fields": {
+        "action_time": "2026-08-07T16:46:36.351Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "48",
+        "object_repr": "پروتئینه مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0648\\u0636\\u06cc\\u062d\\u0627\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 210,
+    "fields": {
+        "action_time": "2026-08-08T06:46:30.968Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "31",
+        "object_repr": "طاها:پروتئینه مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0648\\u0636\\u0639\\u06cc\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 211,
+    "fields": {
+        "action_time": "2026-08-10T08:18:46.063Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "49",
+        "object_repr": "بافتن مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\", \" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 212,
+    "fields": {
+        "action_time": "2026-08-10T08:20:27.596Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "50",
+        "object_repr": "فر کردن مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 213,
+    "fields": {
+        "action_time": "2026-08-10T08:21:08.471Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "50",
+        "object_repr": "فر کردن مو",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 214,
+    "fields": {
+        "action_time": "2026-08-10T08:21:13.961Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "51",
+        "object_repr": "فر کردن مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\" \\u0648\\u0636\\u0639\\u06cc\\u062a \\u067e\\u0633\\u062a\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 215,
+    "fields": {
+        "action_time": "2026-08-18T17:24:57.011Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "51",
+        "object_repr": "فر کردن مو",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Published\"]}}]"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$FB4ercdyOqvp2H9N9UeWtt$qG3Y6NTYaFhU6goegy3SABvCQkmZwC+G6iXp73JNemA=",
+        "last_login": "2026-08-18T17:24:11.606Z",
+        "is_superuser": true,
+        "username": "taha",
+        "first_name": "Mohammad Taha",
+        "last_name": "Saeidi",
+        "email": "m.t.saeidi86@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-07-11T06:28:20Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$pESS4fUq9Vf19pvP89GtGF$CxhYzib9zko3r0jdLfEzKzmf18XXN+fEL5l4uxE2G0Y=",
+        "last_login": "2026-08-19T17:39:11.182Z",
+        "is_superuser": true,
+        "username": "reza",
+        "first_name": "reza",
+        "last_name": "rezaee",
+        "email": "reza@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-07-11T06:42:04Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$j4dK9nhGYr7qdNyA4vFYQc$UeQf4MTe/p5WLnq+ebPNyogZ55MG5ph19OnVp/dr9fk=",
+        "last_login": "2026-08-05T18:51:28Z",
+        "is_superuser": true,
+        "username": "ali",
+        "first_name": "ali",
+        "last_name": "aliee",
+        "email": "ali@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-08-05T18:51:03Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "23q2zbbfipo6f4gqkgb0swxfnilji0ag",
+    "fields": {
+        "session_data": ".eJxVjDkOwjAQAP-yNbKC7cR2Svq8wVrvgQMokXJUiL-jSCmgnRnNGzLuW837KkseGXqwcPllBekp0yH4gdN9NjRP2zIWcyTmtKsZZpbX7Wz_BhXXCj0QtjFpaiKrE7KOhYhsiYg-KmOLqFfVwIGkdK34hsl3yYVoVSQ5gs8XLkc5xw:1wwkFr:ASw6r3oXIkkSdSVnlYjSamfg8qIyxG9DQPR35TrzUC8",
+        "expire_date": "2026-09-02T17:39:11.186Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "51u3u1y76qlwpncmuthkrlyofyr4m8uk",
+    "fields": {
+        "session_data": ".eJxVjEsOgjAUAO_y1qaRAm1h6Z4zkPe1qIGEwsp4d0PCQrczk3nDiPuWx73oOk4CPVRw-WWE_NT5EPLA-b44XuZtncgdiTttccMi-rqd7d8gY8nQQ6dVpJiCijAa11g33ARKoskrUZfUt9E8x4a4tS4YUWBsTUzsqlWCzxceXDnM:1ws2Fp:8r7KlRXAEBYZc0usPQUiULFU5tVTNuStLo83jH3_u9o",
+        "expire_date": "2026-08-20T17:51:41.204Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8f7c8gnb9uwtjq73buqnfzj4sj2liroo",
+    "fields": {
+        "session_data": ".eJxVjE0OwiAYRO_C2hChLVCX7j0D-f6QqoGktCvj3W2TLjSzm_dm3irCuuS4NpnjxOqijDr9dgj0lLIDfkC5V021LPOEelf0QZu-VZbX9XD_DjK0vK1HMR59cMJMkKiDrqfeYWAJVhDHIHbwyZLvkYY0uoToCIbEW85igvp8AR5cOcw:1wqxqr:R1K18GZQCw1mthFP44YUSxhiCivcFjsg9XuddZ2rEm4",
+        "expire_date": "2026-08-17T18:57:29.685Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "90yly0mq5nhjltk81sd3ngl0je6tb35q",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hA6rQO4dN8zkIEBqRpISrsy3l1JutDtf-_9l3C0b9ntLa5uYXERIE6_m6fwiKUDvlO5VRlq2dbFy67IgzY5V47P6-H-HWRqudeTsmwjajOBBRwn1N4yBUxfMg4KFOs04JkUGAoMMbEOSbFlBgVoxPsDzTM3pg:1widPF:-9CLS3TPPRbqIpcTz07d0GMjr6Gm1km-vR9lFLqVFf8",
+        "expire_date": "2026-07-25T19:30:33.951Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "99w3iww4ewya9y1esrxql94zyfnpqoj7",
+    "fields": {
+        "session_data": ".eJxVjDkOwjAQAP-yNbKC7cR2Svq8wVrvgQMokXJUiL-jSCmgnRnNGzLuW837KkseGXqwcPllBekp0yH4gdN9NjRP2zIWcyTmtKsZZpbX7Wz_BhXXCj0QtjFpaiKrE7KOhYhsiYg-KmOLqFfVwIGkdK34hsl3yYVoVSQ5gs8XLkc5xw:1wwNaO:dUIuCLtPt5YRFDa7S0K44b0MTQdgb6NcYg3m8OoMzQU",
+        "expire_date": "2026-09-01T17:26:52.905Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "az27kejet8m4hxnnf01nz16pn4vkkpw3",
+    "fields": {
+        "session_data": ".eJxVjE0OwiAYRO_C2hChLVCX7j0D-f6QqoGktCvj3W2TLjSzm_dm3irCuuS4NpnjxOqijDr9dgj0lLIDfkC5V021LPOEelf0QZu-VZbX9XD_DjK0vK1HMR59cMJMkKiDrqfeYWAJVhDHIHbwyZLvkYY0uoToCIbEW85igvp8AR5cOcw:1wsNMU:-PmjctnEpnj1WQXD0w3hpvMxC2gs48ukFRCT9SSri_8",
+        "expire_date": "2026-08-21T16:23:58.038Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "jrjs8x0lumjc7gwaahxraymb3t956mjh",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlmW_6ak5wzW7nrBAWRLcVJF3B0ipYD2zczbRIZ1qXkdPOepiLPQ4vS7IdCT2w7KA9q9S-ptmSeUuyIPOuS1F35dDvfvoMKo31qlm3PWog5KM2j22sdoA5ACg9aDjmgUkjNAjtCk5Hw0HDyZgIEUifcHx8E3ag:1wo0a7:K-D4l_OQAEO-mJIJDiIYfSGixOCPfa65yDydSZNA1EQ",
+        "expire_date": "2026-08-09T15:15:59.901Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lkcn0bbh7a8m3r0nqw30pdtrh8ym6h80",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOMEhduvcMZGBGqRpISrsy3l2bdKHb_977LxVpXUpcu8xxYnVSRh1-t0T5IXUDfKd6azq3usxT0puid9r1pbE8z7v7d1Col29t5YoCACYQsiEH2XrLgMH7ZAQDuZHsMLqQrAcyISfPIDAcETGn4NX7A8iONwU:1wqmCz:24kKYBNLjIkD04UL7jmSKiX6xc7W-QPrseQhruo6TH4",
+        "expire_date": "2026-08-17T06:31:33.275Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ou7984g8ny23s43315bfzwy4fwml0pwp",
+    "fields": {
+        "session_data": ".eJxVjEsOgjAUAO_y1qaRAm1h6Z4zkPe1qIGEwsp4d0PCQrczk3nDiPuWx73oOk4CPVRw-WWE_NT5EPLA-b44XuZtncgdiTttccMi-rqd7d8gY8nQQ6dVpJiCijAa11g33ARKoskrUZfUt9E8x4a4tS4YUWBsTUzsqlWCzxceXDnM:1wrW0o:W7u2AKnnM2XFkw-KPKFG1m6e3_d4sL8gmycOlMVx8LU",
+        "expire_date": "2026-08-19T07:26:02.487Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "qlh2g1mqr8hps5zj1r3umevdsamyufhu",
+    "fields": {
+        "session_data": ".eJxVjDkOwjAQAP-yNbKC7cR2Svq8wVrvgQMokXJUiL-jSCmgnRnNGzLuW837KkseGXqwcPllBekp0yH4gdN9NjRP2zIWcyTmtKsZZpbX7Wz_BhXXCj0QtjFpaiKrE7KOhYhsiYg-KmOLqFfVwIGkdK34hsl3yYVoVSQ5gs8XLkc5xw:1wwNe5:CYca8b4rNjpzop0IgWU6yhATgKxZv9UuifNMxtJ9tmM",
+        "expire_date": "2026-09-01T17:30:41.785Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "tsuvz4ov5zl7k0yno9z08pcq0xqb4idp",
+    "fields": {
+        "session_data": ".eJxVjE0OwiAYRO_C2hChLVCX7j0D-f6QqoGktCvj3W2TLjSzm_dm3irCuuS4NpnjxOqijDr9dgj0lLIDfkC5V021LPOEelf0QZu-VZbX9XD_DjK0vK1HMR59cMJMkKiDrqfeYWAJVhDHIHbwyZLvkYY0uoToCIbEW85igvp8AR5cOcw:1wl11u:Ox74tlhkfTmUsooxChWBC4fhLcXbiwdFEWNwGXRUB3s",
+        "expire_date": "2026-08-01T09:08:18.307Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ua2lj3eez8uuvs8e2265ov6sbhyy6f8a",
+    "fields": {
+        "session_data": ".eJxVjDEOgzAMAP_iuYpiSAhh7N43RHbsFNoKJAJT1b9XSAztene6NyTatzHtVdc0CQyAcPllTPmp8yHkQfN9MXmZt3VicyTmtNXcFtHX9Wz_BiPVEQboWaRIycVqDE7ZMQUUUu_FISPHzobgOvYorY1NK9bH0hAyUuxdZ-HzBRVTOCg:1wwNXn:lAZiElSdKMmpiFumyecIHuMJj3_Vu7-S01Ts3nZ1K6I",
+        "expire_date": "2026-09-01T17:24:11.610Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zt5r73svcpbm5dhfjtnogosfhzjyd6ja",
+    "fields": {
+        "session_data": ".eJxVjE0OwiAYRO_C2hChLVCX7j0D-f6QqoGktCvj3W2TLjSzm_dm3irCuuS4NpnjxOqijDr9dgj0lLIDfkC5V021LPOEelf0QZu-VZbX9XD_DjK0vK1HMR59cMJMkKiDrqfeYWAJVhDHIHbwyZLvkYY0uoToCIbEW85igvp8AR5cOcw:1wiRVn:lV1O8-hCUk5B7nTSUAfMIoZdT_7BIYAw0dccQuvDx9Q",
+        "expire_date": "2026-07-25T06:48:31.999Z"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 14,
+    "fields": {
+        "author": 1,
+        "title": "رنگ مو",
+        "description": "رنگ مو برای رنگ زدن مو است",
+        "slug": "hair-color",
+        "published": "2026-08-03T22:13:08+03:30",
+        "created": "2026-08-03T22:24:56.311+03:30",
+        "updated": "2026-08-06T13:39:17.271+03:30",
+        "status": "PB",
+        "reading_time": 12
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 39,
+    "fields": {
+        "author": 3,
+        "title": "ناخن",
+        "description": "ناخن مصنوعی پلاستیکی هست",
+        "slug": "nakhon",
+        "published": "2026-08-05T23:30:15+03:30",
+        "created": "2026-08-05T23:32:00.647+03:30",
+        "updated": "2026-08-06T13:33:53.935+03:30",
+        "status": "PB",
+        "reading_time": 1
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 42,
+    "fields": {
+        "author": 1,
+        "title": "کاشت مو",
+        "description": "کاشت مو با روش لیزر انجام نمیشود",
+        "slug": "kash-moo",
+        "published": "2026-08-05T23:43:48+03:30",
+        "created": "2026-08-05T23:43:55.778+03:30",
+        "updated": "2026-08-05T23:44:11.665+03:30",
+        "status": "PB",
+        "reading_time": 10
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 47,
+    "fields": {
+        "author": 3,
+        "title": "کراتین مو",
+        "description": "کراتین  مو برای ریشه مو بسیار مفید نیست",
+        "slug": "keratin",
+        "published": "2026-08-06T12:16:56+03:30",
+        "created": "2026-08-06T12:17:48.998+03:30",
+        "updated": "2026-08-06T21:22:11.250+03:30",
+        "status": "PB",
+        "reading_time": 25
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 48,
+    "fields": {
+        "author": 1,
+        "title": "پروتئینه مو",
+        "description": "بهداد اسکل است",
+        "slug": "protein",
+        "published": "2026-08-06T12:16:56+03:30",
+        "created": "2026-08-06T12:26:42.339+03:30",
+        "updated": "2026-08-07T20:16:36.349+03:30",
+        "status": "PB",
+        "reading_time": 30
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 49,
+    "fields": {
+        "author": 3,
+        "title": "بافتن مو",
+        "description": "بافتن مو امروزه به روش های مختلفتی با  دستگاه های بروز انجام یشود",
+        "slug": "baft",
+        "published": "2026-08-10T11:48:20+03:30",
+        "created": "2026-08-10T11:48:25.916+03:30",
+        "updated": "2026-08-10T11:48:46.062+03:30",
+        "status": "PB",
+        "reading_time": 22
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 51,
+    "fields": {
+        "author": 2,
+        "title": "فر کردن مو",
+        "description": "فر کردن مو با دستگاه های خاص و مواد فر کننده انجام میشود",
+        "slug": "fer",
+        "published": "2026-08-18T17:24:56Z",
+        "created": "2026-08-10T08:20:59.418Z",
+        "updated": "2026-08-18T17:24:57.010Z",
+        "status": "PB",
+        "reading_time": 22
+    }
+},
+{
+    "model": "blog.ticket",
+    "pk": 21,
+    "fields": {
+        "message": "سلام مشکلات کشور حل شود",
+        "name": "محمد طاها سعیدی",
+        "email": "m.t.saeidi86@gmail.com",
+        "phone": "09134555944",
+        "subject": "پیشنهاد"
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 29,
+    "fields": {
+        "post": 14,
+        "body": "رنگ مو من زرد هست",
+        "name": "ali",
+        "created": "2026-08-05T21:05:10.355+03:30",
+        "updated": "2026-08-05T23:44:32.240+03:30",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 30,
+    "fields": {
+        "post": 47,
+        "body": "من موهام رو کراتین کردم ولی ریده شد توی سرم",
+        "name": "ali",
+        "created": "2026-08-06T12:18:22.625+03:30",
+        "updated": "2026-08-06T12:18:30.056+03:30",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 31,
+    "fields": {
+        "post": 48,
+        "body": "بهداد خر",
+        "name": "طاها",
+        "created": "2026-08-08T10:16:19.879+03:30",
+        "updated": "2026-08-08T10:16:30.966+03:30",
+        "active": true
+    }
+}
+]

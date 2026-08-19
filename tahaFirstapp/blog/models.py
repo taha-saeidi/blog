@@ -27,7 +27,7 @@ class Post(models.Model):
     #date
     published = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=True, verbose_name = "زمان تولید")
-    updated = models.DateTimeField(auto_now=True, verbose_name = "زمان آپدیت")
+    updated = models.jDateTimeField(auto_now=True, verbose_name = "زمان آپدیت")
     #choices fields
     status = models.CharField(max_length=2,
                               choices=Status.choices,

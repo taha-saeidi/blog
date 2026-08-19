@@ -1,0 +1,42 @@
+{% extends 'parent/base.html' %}
+{% block title %}login{% endblock title %}
+
+
+{% block content %}
+{% if form.errors %}
+    <p style="co">لطفا خطا های زیر را اصلاح کنید</p>
+    <br>
+    <p style="color: red">
+    {% for field in form %}
+        {% if field.errors %}
+            {% for error in field.errors %}
+                <p>{{ field.label }} : {{ error }}</p>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+
+<div class="comment-page">
+
+        <div class="comment-form-card">
+
+            <h2>ثبت دیدگاه</h2>
+
+            <form method="POST" >
+                {% csrf_token %}
+
+                {{ form.as_p }}
+
+                <button type="submit" class="submit-btn">
+                    ارسال دیدگاه
+                </button>
+
+            </form>
+
+        </div>
+
+
+</div>
+
+{% endblock content %}

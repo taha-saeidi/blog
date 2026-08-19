@@ -10,6 +10,7 @@
 
 
      {% for usr in users %}
+    <picture></picture>
 
         <option value="{{ usr.id }}" {% if form.author.value %} selected{%endif%}>{{ usr.first_name}} {{usr.last_name}}</option>
 

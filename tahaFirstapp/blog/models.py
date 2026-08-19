@@ -1,4 +1,6 @@
 #moduls
+from django.utils import timezone
+
 from datetime import timezone
 
 from django.db import models
@@ -23,9 +25,9 @@ class Post(models.Model):
     description = models.TextField(verbose_name = "توضیحات")
     slug = models.SlugField(max_length=250)
     #date
-    published = jmodels.jDateTimeField(default=timezone.now())
-    created = jmodels.jDateTimeField(auto_now_add=True, verbose_name = "زمان تولید")
-    updated = jmodels.jDateTimeField(auto_now=True, verbose_name = "زمان آپدیت")
+    published = models.DateTimeField(default=timezone.now)
+    created = models.DateTimeField(auto_now_add=True, verbose_name = "زمان تولید")
+    updated = models.DateTimeField(auto_now=True, verbose_name = "زمان آپدیت")
     #choices fields
     status = models.CharField(max_length=2,
                               choices=Status.choices,
@@ -35,7 +37,7 @@ class Post(models.Model):
     reading_time = models.PositiveIntegerField(default=0 , verbose_name="زمان مطالعه")
 
     # objects = models.Manager()
-    objects = jmodels.jManager()
+    objects = models.Manager()
     Published_Manager = PublishedManager()
     def get_absolute_url(self):
         return reverse("blog:post_detail", args={self.id})
@@ -67,9 +69,9 @@ class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="comment" , verbose_name="پست")
     body = models.TextField(verbose_name="پیام")
     name = models.CharField(max_length=250, verbose_name="اسم")
-    created = jmodels.jDateTimeField(auto_now_add=True, verbose_name="زمان تولید")
-    updated = jmodels.jDateTimeField(auto_now=True, verbose_name="زمان آپدیت")
-    # published = jmodels.jDateTimeField(default=timezone.now())
+    created = models.DateTimeField(auto_now_add=True, verbose_name="زمان تولید")
+    updated = models.DateTimeField(auto_now=True, verbose_name="زمان آپدیت")
+    # published = models.DateTimeField(default=timezone.now())
     active = models.BooleanField(default=False,verbose_name="وضعیت")
 
     class Meta:

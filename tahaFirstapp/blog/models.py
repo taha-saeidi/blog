@@ -26,7 +26,7 @@ class Post(models.Model):
     slug = models.SlugField(max_length=250)
     #date
     published = models.DateTimeField(default=timezone.now)
-    created = models.jDateTimeField(auto_now_add=True, verbose_name = "زمان تولید")
+    created = jmodels.jDateTimeField(auto_now_add=True, verbose_name = "زمان تولید")
     updated = jmodels.jDateTimeField(auto_now=True, verbose_name = "زمان آپدیت")
     #choices fields
     status = models.CharField(max_length=2,

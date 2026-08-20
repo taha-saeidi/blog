@@ -103,3 +103,9 @@ def postForm(request):
         form = PostForm()
 
     return render(request, 'forms/postForm.html', {'form': form})
+
+
+def post_search(request):
+    from django.http import HttpResponse
+    text = SearchForm(request.GET)
+    return HttpResponse(text)

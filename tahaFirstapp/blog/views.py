@@ -106,6 +106,16 @@ def postForm(request):
 
 
 def post_search(request):
-    from django.http import HttpResponse
-    text = SearchForm(request.GET)
-    return HttpResponse(text)
+    query = None
+    results = []
+    if 'query' in request.GET:
+        form = SearchForm(request.GET)
+        if form.is_valid():
+            query = form.cleaned_data['query']
+            results = Post.Published_Manager.filter(title__icontains=query)
+
+    context = {
+        'query':query,
+        'results':results
+    }
+    return render(request, 'blog/search.html',context)

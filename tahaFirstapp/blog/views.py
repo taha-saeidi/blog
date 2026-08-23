@@ -1,4 +1,5 @@
 import email
+from pydoc import describe
 
 from django.shortcuts import render, get_object_or_404, redirect
 
@@ -83,6 +84,22 @@ def post_comment(request,id):
 
     context = {'post':post,'form':form,'comment':comment}
     return render(request,'forms/comment.html',context)
+
+# def post_search(request):
+#     query = None
+#     results = []
+#     if 'query' in request.GET:
+#         form = SearchForm(request.GET)
+#         if form.is_valid():
+#             query = form.cleaned_data['query']
+#             results = Post.Published_Manager.filter(title__icontains=query)
+#
+#     context = {
+#         'query':query,
+#         'results':results
+#     }
+#     return render(request, 'blog/search.html',context)
+
 def postForm(request):
     if request.method == 'POST':
         form = PostForm(request.POST)
@@ -104,18 +121,33 @@ def postForm(request):
 
     return render(request, 'forms/postForm.html', {'form': form})
 
-
 def post_search(request):
     query = None
-    results = []
-    if 'query' in request.GET:
+    resault = []
+    if request.method == "GET":
         form = SearchForm(request.GET)
         if form.is_valid():
             query = form.cleaned_data['query']
-            results = Post.Published_Manager.filter(title__icontains=query)
-
-    context = {
-        'query':query,
-        'results':results
-    }
+            resault_1 =Post.Published_Manager.filter(title__icontains=query)
+            resault_2 = Post.Published_Manager.filter(description__icontains=query)
+            resault = resault_1 | resault_2
+    context = {'resault':resault,'query':query}
     return render(request, 'blog/search.html',context)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

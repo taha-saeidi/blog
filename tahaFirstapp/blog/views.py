@@ -110,7 +110,7 @@ def postForm(request):
 
 def post_search(request):
     query = None
-    resault = []
+    result = []
     if request.method == "GET":
         form = SearchForm(request.GET)
         if form.is_valid():

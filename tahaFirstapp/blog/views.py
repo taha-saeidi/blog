@@ -98,7 +98,7 @@ def post_comment(request,id):
 #         'query':query,
 #         'results':results
 #     }
-#     return render(request, 'blog/search.html',context)
+
 
 def postForm(request):
     if request.method == 'POST':

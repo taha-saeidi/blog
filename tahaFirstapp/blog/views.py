@@ -115,9 +115,6 @@ def post_search(request):
         form = SearchForm(request.GET)
         if form.is_valid():
             query = form.cleaned_data['query']
-            # result_1 =Post.Published_Manager.filter(title__icontains=query)
-            # result_2 = Post.Published_Manager.filter(description__icontains=query)
-            # result = result_1 | result_2
             result = Post.Published_Manager.filter(Q(title__icontains=query) | Q(description__icontains=query))
     context = {'resault':result,'query':query}
     return render(request, 'blog/search.html',context)

@@ -1,22 +1,23 @@
 {% extends 'parent/base.html' %}
+{% load blog_tags %}
 
 {% block title %} Post search {% endblock %}
 
 {% block content %}
+{% if query %}
+<b>برای {{query}} {{resault.count}} شما این نتایج یافت شد :</b>
+<br>
+<br>
+<br>
 
-    {% if query %}
-        {{ results.count }} search results for: {{ query }}
-    {% endif %}
-    <br>
+    {% for post in resault %}
+        <a href="{{ post.get_absolute_url }}">{{post.title}}</a>
+        <p>{{post.description|censor}}</p>
+        <hr>
+    {%empty%}
+    نتیجه ای یافت نشد !!!
+    {%endfor%}
+{% endif %}
 
-    <div>
-        {% for post in results %}
-            <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
-            <p>description:<br>{{ post.description }}</p>
-            <br><hr>
-        {% empty %}
-            Nothing found...
-        {% endfor %}
-    </div>
 
 {% endblock %}

@@ -85,19 +85,6 @@ def post_comment(request,id):
     context = {'post':post,'form':form,'comment':comment}
     return render(request,'forms/comment.html',context)
 
-# def post_search(request):
-#     query = None
-#     results = []
-#     if 'query' in request.GET:
-#         form = SearchForm(request.GET)
-#         if form.is_valid():
-#             query = form.cleaned_data['query']
-#             results = Post.Published_Manager.filter(title__icontains=query)
-#
-#     context = {
-#         'query':query,
-#         'results':results
-#     }
 
 
 def postForm(request):

@@ -119,7 +119,7 @@ def post_search(request):
             # resault_2 = Post.Published_Manager.filter(description__icontains=query)
             # resault = resault_1 | resault_2
             result = Post.Published_Manager.filter(Q(title__icontains=query) | Q(description__icontains=query))
-    context = {'resault':resault,'query':query}
+    context = {'resault':result,'query':query}
     return render(request, 'blog/search.html',context)
 
 

@@ -116,7 +116,7 @@ def post_search(request):
         if form.is_valid():
             query = form.cleaned_data['query']
             # resault_1 =Post.Published_Manager.filter(title__icontains=query)
-            # resault_2 = Post.Published_Manager.filter(description__icontains=query)
+            # result_2 = Post.Published_Manager.filter(description__icontains=query)
             # result = result_1 | result_2
             result = Post.Published_Manager.filter(Q(title__icontains=query) | Q(description__icontains=query))
     context = {'resault':result,'query':query}

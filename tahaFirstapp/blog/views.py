@@ -2,7 +2,7 @@ import email
 from pydoc import describe
 
 from django.shortcuts import render, get_object_or_404, redirect
-
+from django.db.models import Q
 from django.contrib.auth.models import User
 from .models import *
 from .forms import *
@@ -118,6 +118,7 @@ def post_search(request):
             # resault_1 =Post.Published_Manager.filter(title__icontains=query)
             # resault_2 = Post.Published_Manager.filter(description__icontains=query)
             # resault = resault_1 | resault_2
+
     context = {'resault':resault,'query':query}
     return render(request, 'blog/search.html',context)
 

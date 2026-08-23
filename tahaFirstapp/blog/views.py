@@ -28,7 +28,7 @@ def index(request):
 #     except PageNotAnInteger:
 #         posts = paginator.page(1)
 #     context = {'posts':posts}
-
+#     return render(request,'blog/list.html',context)
 class PostListView(ListView):
     context_object_name = 'posts'
     paginate_by = 3

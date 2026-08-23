@@ -10,6 +10,7 @@ urlpatterns = [
     path('posts/add',views.postForm,name='post_add'),
     # path('posts/<pk>', views.PostDetailView.as_view(), name='post_detail'),
     path('tickets/',views.ticket,name='ticket'),
+    # path('search/',views.post_search,name='post_search'),
     path('search/',views.post_search,name='post_search'),
 
 ]

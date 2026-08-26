@@ -10,7 +10,7 @@ from datetime import datetime
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.generic import DetailView, ListView
 from django.views.decorators.http import require_POST
-
+from django.contrib.postgres.search import SearchVector
 # Create your views here.
 def index(request):
     # return HttpResponse("index page")

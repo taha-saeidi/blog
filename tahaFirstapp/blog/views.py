@@ -10,7 +10,8 @@ from datetime import datetime
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.generic import DetailView, ListView
 from django.views.decorators.http import require_POST
-from django.contrib.postgres.search import SearchVector , SearchQuery , SearchRank
+# from django.contrib.postgres.search import SearchVector , SearchQuery , SearchRank
+from django.contrib.postgres.search import TrigramSimilarity
 # Create your views here.
 def index(request):
     # return HttpResponse("index page")
@@ -114,12 +115,17 @@ def post_search(request):
     if request.method == "GET":
         form = SearchForm(request.GET)
         if form.is_valid():
+            # query = form.cleaned_data['query']
+            # search_query = SearchQuery(query)
+            # search_vector = SearchVector("title",weight="A")+SearchVector("description",weight="B")+SearchVector("slug",weight="C")
+            # # result = Post.Published_Manager.filter(Q(title__search=query) | Q(description__search=query))
+            # # result = Post.Published_Manager.annotate(search = SearchVector("title","description","slug")).filter(search = search_query)
+            # result = Post.Published_Manager.annotate(rank=SearchRank(search_vector,search_query)).filter(rank__gte=0.5).order_by("-rank")
             query = form.cleaned_data['query']
-            search_query = SearchQuery(query)
-            search_vector = SearchVector("title",weight="A")+SearchVector("description",weight="B")+SearchVector("slug",weight="C")
-            # result = Post.Published_Manager.filter(Q(title__search=query) | Q(description__search=query))
-            # result = Post.Published_Manager.annotate(search = SearchVector("title","description","slug")).filter(search = search_query)
-            result = Post.Published_Manager.annotate(rank=SearchRank(search_vector,search_query)).filter(rank__gte=0.5).order_by("-rank")
+            result1 = Post.Published_Manager.annotate(similarity=TrigramSimilarity('title', query)).filter(similarity__gt=0.1)
+            result2 = Post.Published_Manager.annotate(similarity=TrigramSimilarity('description', query)).filter(similarity__gt=0.1)
+            result = (result1 | result2).order_by("-similarity")
+
     context = {'resault':result,'query':query}
     return render(request, 'blog/search.html',context)
 

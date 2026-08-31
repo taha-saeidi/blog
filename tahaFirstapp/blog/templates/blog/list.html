@@ -14,6 +14,9 @@
             <h3>{{ post.title }}</h3>
         </a>
         <p>{{ post.description | truncatewords:5 |censor }}</p>
+        {% if post.images.first.image_file.url %}
+        <img width="200px" height="150px" src="{{post.images.first.image_file.url}}" alt="{{post.images.first.title}}" >
+        {% endif %}
     </li>
     {% endfor %}
 </ol>

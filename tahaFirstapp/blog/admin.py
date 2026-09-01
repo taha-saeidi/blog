@@ -10,6 +10,14 @@ admin.sites.AdminSite.site_title = "پنل ادمین"
 admin.sites.AdminSite.site_header = "پنل مدیریت"
 admin.sites.AdminSite.index_title = "دسته بندی ها"
 
+#inlines
+class ImageInlines(admin.StackedInline):
+    model = Image
+    extra = 0
+class CommentInline(admin.StackedInline):
+    model = Comment
+    extra = 0
+
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
     list_display = ('title', 'author', 'published', 'status',"reading_time",)
@@ -20,6 +28,7 @@ class PostAdmin(admin.ModelAdmin):
     date_hierarchy = 'published'
     prepopulated_fields = {'slug': ["title"]}
     list_editable = ('status', )
+    inlines = (CommentInline,ImageInlines)
     # list_display_links = ('author',)
 @admin.register(Ticket)
 class TicketAdmin(admin.ModelAdmin):

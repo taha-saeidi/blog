@@ -126,7 +126,7 @@ def post_search(request):
             result2 = Post.Published_Manager.annotate(similarity=TrigramSimilarity('description', query)).filter(similarity__gt=0.1)
             result = (result1 | result2).order_by("-similarity")
 
-    context = {'resault':result,'query':query}
+    context = {'result':result,'query':query}
     return render(request, 'blog/search.html',context)
 
 

@@ -88,3 +88,5 @@ dist/
 # Cache
 # ===========================
 .cache/
+#======== dumpdatas==========
+tahaFirstapp/datadump.json

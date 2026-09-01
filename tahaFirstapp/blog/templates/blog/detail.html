@@ -25,14 +25,20 @@
         <div class="post-body">
             {{ post.description|linebreaks|censor|safe }}
         </div>
+        <hr>
         {% with post.images.all as image %}
             {% for img in image%}
                  <img width="200px" height="150px" src="{{img.image_file.url}}" alt="{{img.title}}" >
+            {% empty %}
+
+            <p class="empty-comment">
+                هنوز کامنتی ثبت نشده.
+            </p>
             {% endfor %}
         {% endwith %}
         <br>
         <a href="{% url 'blog:post' %}" class="back-btn">
-            ← Back to Postss
+            ← Back to Posts
         </a>
 
     </div>

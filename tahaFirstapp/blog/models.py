@@ -1,13 +1,14 @@
 # moduls
-from django.utils import timezone
-
-from datetime import timezone
-
+# from django.utils import timezone
+#
+# from datetime import timezone
+from PIL.ImageOps import crop
 from django.db import models
 from django.utils import timezone, module_loading
 from django.contrib.auth.models import User
 from django_jalali.db import models as jmodels
 from django.urls import reverse
+# from django-resized import ResizedImageFiled
 
 
 # manager
@@ -98,7 +99,9 @@ class Comment(models.Model):
 
 class Image(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="images", verbose_name="پست")
-    image_file = models.ImageField(upload_to="post_images/", verbose_name="تصویر")
+    # image_file = ResizedImageFiled(upload_to="post_images/", size = [500,500] , crop = ['middle' , 'center'],verbose_name="تصویر")
+    image_file = models.ImageField(upload_to="post_images/",verbose_name="تصویر")
+
     title = models.CharField(max_length=250, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
     created = jmodels.jDateTimeField(auto_now_add=True)

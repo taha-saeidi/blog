@@ -5,13 +5,13 @@
 
 {% block content %}
 {% if query %}
-<!--<b>برای {{query}} {{resault.count}} شما این نتایج یافت شد :</b>-->
-<b>برای جستجو شما ({{query}}) تعداد {{resault.count}} پست یافت شد :</b>
+<!--<b>برای {{query}} {{result.count}} شما این نتایج یافت شد :</b>-->
+<b>برای جستجو شما ({{query}}) تعداد {{result.count}} پست یافت شد :</b>
 <br>
 <br>
 <br>
 
-    {% for post in resault %}
+    {% for post in result %}
         <a href="{{ post.get_absolute_url }}">{{post.title}}</a>
         <p>{{post.description|censor}}</p>
         <hr>
